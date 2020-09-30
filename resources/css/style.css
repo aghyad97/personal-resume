@@ -1,12 +1,12 @@
 html, body{
   padding:0px;
   margin:0px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: rgba(0, 0, 0, 0.75);
   height:100%;
 }
 body{
-  background:#f3e5f5; 
+  background:#4A5157; 
 }
 
 a{
@@ -14,8 +14,18 @@ a{
   color: white;
 }
 
+
+.personalPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50%;
+  border-radius: 50%;
+}
+
 .sidebar-title {
-  font-size: 65px;
+  font-size: 46px;
   text-align: center;
   color: white;
   font-weight: 300;
@@ -32,7 +42,7 @@ a{
   position: fixed;
   width: 25%;
   height: 100%;
-  background:#6a1b9a;
+  background:#2A0F2F;
   font-size: 0.65em;
 }
 
@@ -142,4 +152,7 @@ a{
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
+.fas {
+  margin-right: 10px;
 }
