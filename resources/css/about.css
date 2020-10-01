@@ -1,0 +1,66 @@
+.aboutme {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  border-radius: 10px;
+  max-width: 40%;
+  padding: 10px;
+  text-align: center;
+}
+
+.aboutme:hover{
+  box-shadow: 0px 0px 20px white;
+
+}
+
+.education {
+  width: 90%;
+  margin: 20px;
+}
+
+summary {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+summary:hover {
+  color: #67456d;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px white;
+
+}
+
+.description {
+
+}
+
+.skills {
+  width: 90%;
+}
+
+.socials {
+  display: block;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.75);
+  margin: 20px;
+  border-radius: 10px;
+  width: 40%;
+  padding: 10px;
+  
+}
+.socials:hover {
+  box-shadow: 0px 0px 20px white;
+
+}
+
+.social {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.social:hover a {
+  color: #67456d;
+}

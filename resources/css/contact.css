@@ -1,11 +1,16 @@
 .form {
   border: 1px solid #111;
   border-radius: 4px;
-  box-shadow: 20px 20px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: -20px -20px 1px rgba(0, 0, 0, 0.75);
+
   background-color: #9CA0A2;
   height: 60%;
   width: 60%;
   
+}
+.form:hover {
+  box-shadow: 20px 20px 1px rgba(0, 0, 0, 0.75);
+
 }
 
 .subform {
