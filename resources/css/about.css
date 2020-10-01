@@ -2,19 +2,18 @@
   background: rgba(0, 0, 0, 0.75);
   color: white;
   border-radius: 10px;
-  max-width: 40%;
+  width: 88.5%;
   padding: 10px;
   text-align: center;
 }
 
-.aboutme:hover{
-  box-shadow: 0px 0px 20px white;
-
+.aboutme:hover {
+  box-shadow: 0px 0px 20px rgb(181, 181, 181);
 }
 
 .education {
-  width: 90%;
   margin: 20px;
+  width: 90%;
 }
 
 summary {
@@ -29,16 +28,53 @@ summary {
 summary:hover {
   color: #67456d;
   cursor: pointer;
-  box-shadow: 0px 0px 20px white;
+  box-shadow: 0px 0px 20px rgb(181, 181, 181);
 
 }
 
-.description {
+summary:focus {
+  outline: none;
+}
 
+.description {
+  color: white;
+  background-color: #6c7277;
+  border-radius: 10px;
+  width: 95%;
+
+  margin: 10px;
+  padding: 10px;
 }
 
 .skills {
   width: 90%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 250px);
+  justify-content: center;
+
+}
+
+.grid-item {
+  margin: 10px;
+}
+
+.outter {
+  width: 200px;
+  height: 10px;
+  background-color: rgb(232, 232, 232);
+  border-radius: 24px;
+  position: relative;
+}
+
+.inner {
+  position: relative;
+  height: 10px;
+  border-radius: 24px;
 }
 
 .socials {
@@ -47,12 +83,13 @@ summary:hover {
   background: rgba(0, 0, 0, 0.75);
   margin: 20px;
   border-radius: 10px;
-  width: 40%;
+  width: 88.5%;
   padding: 10px;
-  
+
 }
+
 .socials:hover {
-  box-shadow: 0px 0px 20px white;
+  box-shadow: 0px 0px 20px rgb(181, 181, 181);
 
 }
 

@@ -11,9 +11,9 @@
   font-size: 30px;
   max-width: 90%;
   text-align: center;
-  border: 1px solid #111;
+  border: 1px solid #2A0F2F;
   border-radius: 4px;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 20px #2A0F2F;
   background-color: #9CA0A2;
 }
 .project-description {

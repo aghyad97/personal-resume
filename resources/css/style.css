@@ -14,6 +14,10 @@ a{
   color: white;
 }
 
+a:focus {
+  color: grey;
+}
+
 
 .personalPic {
   display: block;
@@ -27,10 +31,11 @@ a{
 }
 
 .sidebar-title {
-  font-size: 46px;
+  font-size: 38px;
   text-align: center;
   color: white;
   font-weight: 300;
+  overflow-wrap: break-word;
 }
 
 .sidebar-subtitle {
