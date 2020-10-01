@@ -1,0 +1,35 @@
+.index-content {
+  background-image: url(/resources/images/img_bg_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  justify-content: center;
+}
+
+.overlay-fade {
+background: -webkit-linear-gradient(225deg,  rgb(60, 60, 60) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+width:100%;
+height:100%;
+}
+.main-list {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.text {
+  display: block;
+  margin: 20%;
+}
+.images {
+  display: block;
+  margin-top: 5%;
+  height: 120px;
+  width: 100%;
+}
+
+.fr-icons{
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
