@@ -77,3 +77,7 @@ summary:focus {
   border-radius: 24px;
 }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
